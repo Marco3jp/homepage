@@ -1,0 +1,78 @@
+body{
+    /*background-color: rgba(38,50,56 ,1);*/
+    background-image: url(../img/stardust.png),linear-gradient(to left, #212121, #263238);
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+a{
+    color: rgba(224,224,224 ,1);
+    text-decoration:none;
+}
+
+.index-contents:hover{
+    animation: mouseOver_1 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.index-contents-child>a>li:hover{
+    animation: mouseOver_2 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mouseOver_1{
+    100%{
+        background-color: rgba(158,158,158 ,1);
+    }
+}
+
+@keyframes mouseOver_2{
+    100%{
+        background-color: rgba(158,158,158 ,1);
+    }
+}
+
+
+.index{
+    float: right;
+    margin-right: 6vw;
+}
+
+.index-contents{
+    text-align: center;
+    width: 10vw;
+    font-size: 3vh;
+    color: rgba(224,224,224 ,1);
+    padding: 2vh 3vw;
+    border-radius: 0 0 2vh 2vh;
+    background-color: rgba(158,158,158 ,.1);
+}
+
+.index-contents a{
+    font-size: 2.5vh;
+}
+
+
+.index-contents-child{
+    width: 10vw;
+    position: absolute;
+    display: none;
+    padding-top: 2vh;
+}
+
+.index-contents-child > a > li{
+    padding: 2vh 0;
+    background-color: rgba(66,66,66 ,.1);
+    width: 10vw;
+}
+
+.index-contents-child > a:last-of-type > li{
+    border-radius: 0 0 2vh 2vh;
+}
+
+
+li[class~="index-contents"]{
+    display: inline-block;
+    vertical-align: top;
+}
