@@ -1,5 +1,7 @@
 body{
     /*background-color: rgba(38,50,56 ,1);*/
+    height: 100vh;
+    width: 100vw;
     background-image: url(../img/stardust.png),linear-gradient(to left, #212121, #263238);
     -ms-user-select: none;
     -webkit-user-select: none;
@@ -16,27 +18,19 @@ a{
     animation-fill-mode: forwards;
 }
 
-.index-contents-child>a>li:hover{
-    animation: mouseOver_2 0.5s;
-    animation-fill-mode: forwards;
-}
-
 @keyframes mouseOver_1{
     100%{
         background-color: rgba(158,158,158 ,1);
     }
 }
 
-@keyframes mouseOver_2{
-    100%{
-        background-color: rgba(158,158,158 ,1);
-    }
-}
-
-
 .index{
     float: right;
     margin-right: 6vw;
+}
+
+.horizontalList{
+    float: left;
 }
 
 .index-contents{
@@ -53,26 +47,30 @@ a{
     font-size: 2.5vh;
 }
 
-
-.index-contents-child{
-    width: 10vw;
-    position: absolute;
-    display: none;
-    padding-top: 2vh;
-}
-
-.index-contents-child > a > li{
-    padding: 2vh 0;
-    background-color: rgba(66,66,66 ,.1);
-    width: 10vw;
-}
-
-.index-contents-child > a:last-of-type > li{
-    border-radius: 0 0 2vh 2vh;
-}
-
-
 li[class~="index-contents"]{
     display: inline-block;
     vertical-align: top;
+}
+
+li[class~="link-contents"]{
+    display: inline-block;
+}
+
+.links{
+    background-color: rgba(158,158,158 ,0.3);
+    width: 90vmin;
+    height: 20vmin;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+}
+
+.links-img{
+    width: 15vmin;
+    height: 15vmin;
+    padding: 3vmin 3vmin;
 }
