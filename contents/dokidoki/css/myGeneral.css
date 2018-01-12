@@ -1,0 +1,26 @@
+.setDiv{
+    display: flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.fourWayReset{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.borderSetting{
+    border: solid;
+    border-color: rgba(66,66,66 ,1);
+    border-width: 0.3vmin;
+    border-radius: 1vmin;
+}

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Source Han Sans JP";
+    src: url('../lib/SourceHanSansJP-Regular.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "Londrina Shadow";
+    src: url('../lib/LondrinaShadow-Regular.ttf') format("truetype");
+}
+
+
+.titleBG{
+    background-image: url('../img/6726Re.png'),url('../img/hachimangu.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+    color: rgba(33,33,33 ,1);
+    font-family:"Source Han Sans JP";
+}
+
+#allMother{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.lastNight{
+    background-color: rgba(38,50,56 , 0.8);
+}
+
+.morning{
+    background-color: rgba(3,169,244 , 0.8);
+}
+
+.day{
+    background-color: rgba(33,150,243 ,0.8);
+}
+
+.sunset{
+    background-color: rgba(255,152,0 ,0.8);
+}
+
+.night{
+    background: -webkit-linear-gradient(to bottom, rgba(0, 78, 146, 0.8), rgba(0, 4, 40, 0.8));
+    background: linear-gradient(to bottom, rgba(0, 78, 146, 0.8), rgba(0, 4, 40, 0.8));
+}
+
+.special{
+    background-color: rgba(96,125,139 ,0.8);
+}
+
+#allMother > *{
+    position: relative;
+}
+.inGame > *{
+    position: absolute;
+}
+
+.inGame{
+    width: 100vw;
+    height: 100vh;
+}

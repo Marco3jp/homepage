@@ -1,0 +1,51 @@
+h1{
+    margin: 1vh 1vw;
+    font-size: 3vh;
+    padding: 0.5em;
+    color: #010101;
+    background: rgba(139,195,74 ,1);
+    border-bottom: solid 3px rgba(76,175,80 ,1);
+}
+
+h2{
+    margin: 1vh 1vw;
+    font-size: 2.5vh;
+    padding: 0.5em;
+    color: #010101;
+    border-left: solid 0.5vw rgba(76,175,80 ,1);
+    border-bottom: solid 0.3vw rgba(139,195,74 ,1);
+}
+
+h3{
+    margin: 1vh 1vw;
+    font-size: 2vh;
+    padding: 0.5em;
+    color: #010101;
+    border-left: solid 0.5vw rgba(76,175,80 ,1);
+}
+
+h4{
+    margin: 1vh 1vw;
+    font-size: 1.5vh;
+    border-left: solid 0.2vw rgba(0,150,136 ,1);
+    padding: 0.2em;
+}
+
+a{
+    margin: 1vh 1vw;
+    font-size: 1.8vh;
+    line-height: 1.5em;
+}
+
+.license{
+    margin: 1vh 1vw;
+    font-size: 1.8vh;
+    padding: 0.2em;
+}
+
+.about{
+    margin-left: 1vw;
+    padding: 0.2em;
+    font-size: 1.8vh;
+    line-height: 1.5em;
+}
