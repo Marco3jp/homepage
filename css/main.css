@@ -302,8 +302,8 @@ section li::before{
 @media (max-aspect-ratio:1/1) {
 	.logo{
 		position: absolute;
-		margin-top: .3vh;
-		margin-left: 3vw;
+		margin-top: 2vh;
+		/* margin-left: 3vw; */
 		padding: 0.5vh 1vw;
 		box-sizing: border-box;
 		font-size: 3vh;
@@ -312,15 +312,17 @@ section li::before{
 		color: rgba(139,195,74 ,1);
 		border: dashed rgba(139,195,74 ,1);
 		border-radius: 1vh;
+		width: 34vw;
+    	text-align: center;
 	}
 
 	.index > ul{
-	    margin-left: 40vw;
+		margin-left: 34vw;
 	}
 
 	.index-contents{
 	    text-align: center;
-		width: 20vw;
+		width: 22vw;
 	    font-size: 1vh;
 	    color: rgba(139,195,74 ,1);
 	    border:solid thin rgba(139,195,74 ,1);
@@ -328,8 +330,8 @@ section li::before{
 	    border-bottom: 0;
 	    border-left: 0;
 		box-sizing: border-box;
-	    height: 5vh;
-		line-height: 5vh;
+		height: 8vh;
+	    line-height: 8vh;
 	}
 
 	.index-contents:first-of-type{
