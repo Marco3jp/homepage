@@ -1,0 +1,51 @@
+.links > ul{
+	position: absolute;
+	text-align: center;
+	width: 104vmin;
+	height: 21vmin;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.link-contents{
+	margin: 0 2vmin;
+}
+
+.links-img{
+    width: 15vmin;
+    height: 15vmin;
+    padding: 3vmin 3vmin;
+	transition: background-color .5s;
+}
+
+.links-img:hover{
+	background-color: rgba(139,195,74 ,0.3);
+}
+
+@media (max-aspect-ratio:1/1) {
+    .links > ul{
+		position: absolute;
+		text-align: center;
+		width: 100vw;
+		height: 90vw;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+	}
+
+	.link-contents{
+		margin: 3vh 3vw;
+	}
+
+	.links-img{
+	    width: 25vw;
+	    height: 25vw;
+	    padding: 5vw 5vw;
+		transition: background-color .5s;
+	}
+}

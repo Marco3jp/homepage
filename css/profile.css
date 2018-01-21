@@ -1,0 +1,85 @@
+.profile hr{
+		display: block;
+	    height: 1px;
+	    border: 0;
+	    border-top: solid thin rgba(139,195,74 ,1);
+	    margin: 1vh 2vw;
+	    padding: 0;
+}
+
+
+.firstLine li, .secondLine li, .thirdLine li{
+	list-style-type: none;
+}
+
+
+section li::before{
+	color : rgba(139,195,74 ,1);
+	content: "👓 ";
+}
+
+.thirdLine{
+	flex-direction: column;
+}
+
+.thirdLine > section{
+	display: flex;
+}
+@media (min-aspect-ratio:1/1) {
+    .profile h2{
+		font-size: 3vh;
+		margin: 0.5vh 0;
+	}
+
+	.profile h3{
+		font-size: 2.5vh;
+		margin: 0.5vh 0;
+	}
+
+	.profile-contents{
+		margin-top: 1vh;
+	}
+
+	.firstLine,.secondLine,.thirdLine{
+		display: flex;
+		margin-left: 3vw;
+	}
+
+	.firstLine > section,.secondLine > section,.thirdLine > section > section{
+		margin: 0 3vw 1vh 0;
+	}
+}
+
+@media (max-aspect-ratio:1/1) {
+    .profile h2{
+		font-size: 2.5vh;
+		margin: 0.5vh 0;
+	}
+
+	.profile h3{
+		font-size: 2vh;
+		margin: 0.5vh 0;
+	}
+
+	.profile-contents{
+		margin-top: 1vh;
+		font-size: 2.5vh;
+	}
+
+	.profile-contents li{
+		font-size: 2vh;
+	}
+
+	.firstLine,.secondLine,.thirdLine{
+		display: flex;
+		margin-left: 3vw;
+	}
+
+	.firstLine > section,.secondLine > section,.thirdLine > section > section{
+		margin: 0 3vw 1vh 0;
+	}
+
+	.secondLine ,.thirdLine > section {
+		flex-direction : column;
+	}
+}

@@ -1,0 +1,8 @@
+.mother{
+	padding: 4vh 2.5vw;
+	font-size: 8vh;
+}
+
+.mother > ul{
+	list-style:none;
+}
