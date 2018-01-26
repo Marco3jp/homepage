@@ -1,0 +1,11 @@
+.firstHalf{
+    position: absolute;
+    width: 97vw;
+    height: 20vh;
+}
+.lastHalf{
+    position: absolute;
+    width: 97vw;
+    height: 20vh;
+    margin-top: 40vh;
+}
